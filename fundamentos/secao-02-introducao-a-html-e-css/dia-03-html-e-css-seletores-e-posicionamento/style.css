@@ -183,3 +183,6 @@ button a {
   text-decoration: none;
   color: white;
 }
+.header nav{
+  display: inline;
+}
