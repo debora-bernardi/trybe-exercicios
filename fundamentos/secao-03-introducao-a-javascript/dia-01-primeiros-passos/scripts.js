@@ -1,8 +1,8 @@
-let myName = "Débora";
-let birthCity = "Chapecó";
-let birthYear = "1997";
+let base = 5;
+let heigth = 8;
+let area = base * heigth;
 
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+console.log(area);
 
+let perimeter = 5 + 5 + 8 + 8;
+console.log(perimeter);
