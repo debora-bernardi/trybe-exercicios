@@ -31,3 +31,21 @@ if (number > 0) {
 } else {
     console.log("zero")
 }
+
+let ladoA = 30;
+let ladoB = 100;
+let LadoC = 50;
+let somaDeTodosOsLados = ladoA + ladoB + LadoC;
+let angulosPositivos = ladoA > 0 && ladoB > 0 && LadoC > 0;
+
+if (angulosPositivos) {
+if (somaDeTodosOsLados === 180) {
+    console.log(true);
+} else {
+    console.log(false)
+}
+} else {
+    console.log("Erro: ãngulo inválido");
+}
+ 
+
